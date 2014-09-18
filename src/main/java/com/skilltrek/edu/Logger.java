@@ -5,5 +5,7 @@ package com.skilltrek.edu;
  *
  */
 public class Logger {
+    public void log(String message, int level) {
 
+    }
 }
