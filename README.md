@@ -1,4 +1,12 @@
-SolidDemo
+S.O.L.I.D. Principles Demo
 =========
 
-SOLID principles demo
+# SRP
+
+# OCP
+
+# LSP
+
+# ISP
+
+# DIP
