@@ -1,6 +1,5 @@
 # S.O.L.I.D. Principles Demo
 - Principles ≠ Patterns
-
 ## SRP
 _Single Responsibility Principle_
 - Cohesion = сфокусированность
@@ -9,19 +8,23 @@ _Single Responsibility Principle_
 - Легче тестировать
 - Reuse
 - Усложение дизайна
+
 ## OCP
 _Open-Closed Principle_
 - Дизайн должен быть закрытым для изменеий, но открытым для расширения и реюза
 - Полиморфный алгоритм
 - set/get
+
 ## LSP
 _Liskov Substitution Principle_
 - По сути, про полиморфизм дизайна
 - Подставить наследника вместо базового класса, при этом ничего не ломается
 - Наследник не должен нарушать контракт базового класса
+
 ## ISP
 _Interface Segregation Principle_
 - Сфокусированные интерфейсы
+
 ## DIP
 _Dependency Inversion Principle_
 - Сделать _полиморфный_ дизайн
@@ -34,11 +37,14 @@ _Dependency Inversion Principle_
 
 # OOAD
 Объектный стиль – это:
+
 ## Прячем _изменчивость_ в выделенные классы
 - SRP
+
 ## Накрываем классы абстракцией для _расширяемости_
 - DIP
 - ISP
+
 ## Пишем _полиморфные_ алгоритмы
 - OCP
 - LSP
