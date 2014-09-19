@@ -5,7 +5,7 @@ package com.skilltrek.edu;
  */
 public class ConsoleAppender implements Appender {
     @Override
-    public void append(String {
-         //log(where=console)
+    public void append(String message) {
+        //log(where=console)
     }
 }
