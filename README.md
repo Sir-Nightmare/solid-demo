@@ -49,3 +49,21 @@ _Dependency Inversion Principle_
 ## Пишем _полиморфные_ алгоритмы
 - OCP
 - LSP
+
+# GRASP + TDA
+За время развития ООП накопилось много типовых решений для типовых задач. Откуда узнать типовая у вас проблема или нет? Есть готовый сформированный свод правил. Вместо набивания собственных шишек и изобретения велосипедов с квадратными колесами, нужно узнать накопленный в сообществе опыт.
+- Пример для live coding: logger
+
+## General Responsibility Assignment Software Patterns
+### Information Expert
+### Creator
+### Controller
+### Low coupling
+### High cohesion
+### Polymorphism
+### Protected Variations
+### Pure fabrication
+### Indirection
+
+## Tell Don't Ask
+- Procedure vs OOD
