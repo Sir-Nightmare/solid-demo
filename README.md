@@ -66,27 +66,34 @@ _Dependency Inversion Principle_
 ### Information Expert
 - _Инкапсуляция ответственности_, не путать с hiding
 - Суть ООП
+
 ### Creator
 - vs Factory
 - vs DI
 - Factory vs DI
+
 ### Controller
 - Pure fabrication
 - Может быть частью других шаблонов: MVC
 - Façade, Biulder, Mediator
+
 ### Low coupling & High cohesion
 - cohesion: сфокусировнность, сцепленность
 - Какие атрибуты качества системы получаем?
 - Чем платим?
+
 ### Polymorphism
 - Тот самый полиморфный дизайн
 - Какие принципы SOLID?
+
 ### Protected Variations
 - Какой принцип SOLID? = DIP
 - Polymorphism + PV = Abstr.Factory и Strategy [GoF]
+
 ### Pure fabrication
 - Pure domain model + Pure fabrication (PoEAA, DDD)
 - Controller, Manager, etc
+
 ### Indirection
 - Adapter, Facade, Proxy, Decorator [GoF]
 
