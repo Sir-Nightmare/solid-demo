@@ -30,12 +30,6 @@ _Dependency Inversion Principle_
 - Сделать _полиморфный_ дизайн
 - Повышаем _расширяемость_
 
-# На подумать
-- Кто и как создает экземпляры (с учетом асинхронного создания)?
-- Как избавиться в Logger от смешения _выбора логики_ и _самой логики_? То есть как распилить switch на ветвлению и логику?
-- (Logger -> Filter & Logger -> Appender) или (Logger -> Filter -> Appender)?
-- Какие проблемы с интерфейсом Filter появятся при дальнейшем расширении функционала фильтров?
-
 # OOAD
 Объектный стиль – это:
 
@@ -50,20 +44,47 @@ _Dependency Inversion Principle_
 - OCP
 - LSP
 
+## Проблемы строгой системы типов в OOAD
+- 
+### Что делать
+- 
+
+# На подумать
+- Какие проблемы с интерфейсом Filter появятся при дальнейшем расширении функционала фильтров?
+- Кто и как создает экземпляры (с учетом асинхронного создания)?
+- Как избавиться в Logger от смешения _выбора логики_ и _самой логики_? То есть как распилить switch на ветвлению и логику?
+- (Logger -> Filter & Logger -> Appender) или (Logger -> Filter -> Appender)?
+
+
 # GRASP + TDA
-За время развития ООП накопилось много типовых решений для типовых задач. Откуда узнать типовая у вас проблема или нет? Есть готовый сформированный свод правил. Вместо набивания собственных шишек и изобретения велосипедов с квадратными колесами, нужно узнать накопленный в сообществе опыт.
 - Пример для live coding: logger
 
 ## General Responsibility Assignment Software Patterns
+[GRASP Mindmap](https://dl.dropboxusercontent.com/u/3141158/GRASP_patterns.jpeg)
 ### Information Expert
+- _Инкапсуляция ответственности_, не путать с hiding
+- Суть ООП
 ### Creator
+- vs Factory
+- vs DI
+- Factory vs DI
 ### Controller
-### Low coupling
-### High cohesion
+- Pure fabrication
+- Может быть частью других шаблонов: MVC
+### Low coupling & High cohesion
+- Какие атрибуты качества системы получаем?
+- Чем платим?
 ### Polymorphism
+- Тот самый полиморфный дизайн
+- Какие принципы SOLID?
 ### Protected Variations
+- Какой принцип SOLID?
+- Polymorphism + PV = ??? [GoF]
 ### Pure fabrication
+- Pure domain model + Pure fabrication
+- Controller
 ### Indirection
+- ??? [GoF]
 
 ## Tell Don't Ask
 - Procedure vs OOD
