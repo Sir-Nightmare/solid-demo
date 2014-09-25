@@ -45,9 +45,11 @@ _Dependency Inversion Principle_
 - LSP
 
 ## Проблемы строгой системы типов в OOAD
-- 
+- Протечка абстракции
 ### Что делать
-- 
+- Вынести детали поведение/стейт -> в реализации. Но есть проблема параллельной иерархии классов
+- Контекст (больше про стейт): обобщенный параметр в полиморфные обработчики, ThreadLocal
+- Функцию параметризуем другой ф-ей: ф-я высшых парядков
 
 # На подумать
 - Какие проблемы с интерфейсом Filter появятся при дальнейшем расширении функционала фильтров?
@@ -71,20 +73,22 @@ _Dependency Inversion Principle_
 ### Controller
 - Pure fabrication
 - Может быть частью других шаблонов: MVC
+- Façade, Biulder, Mediator
 ### Low coupling & High cohesion
+- cohesion: сфокусировнность, сцепленность
 - Какие атрибуты качества системы получаем?
 - Чем платим?
 ### Polymorphism
 - Тот самый полиморфный дизайн
 - Какие принципы SOLID?
 ### Protected Variations
-- Какой принцип SOLID?
-- Polymorphism + PV = ??? [GoF]
+- Какой принцип SOLID? = DIP
+- Polymorphism + PV = Abstr.Factory и Strategy [GoF]
 ### Pure fabrication
-- Pure domain model + Pure fabrication
-- Controller
+- Pure domain model + Pure fabrication (PoEAA, DDD)
+- Controller, Manager, etc
 ### Indirection
-- ??? [GoF]
+- Adapter, Facade, Proxy, Decorator [GoF]
 
 ## Tell Don't Ask
 - Procedure vs OOD
